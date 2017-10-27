@@ -15,11 +15,9 @@
           <% if logged_in? %>
             <li>
               <a href="#">
-                <%= link_to new_item_path do %>
-                  <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
-                  アイテムを追加
-                <% end %>
-              </a>
+                <span class="glyphicon glyphicon-plus" aria-hidden="true"></span>
+                アイテムを追加
+                </a>
             </li>
 
             <li class="dropdown">
@@ -36,7 +34,7 @@
                 </li>
                 <li role="separator" class="divider"></li>
                 <li>
-                  <li><%= link_to 'ログアウト', logout_path, method: :delete %></li>
+                  <a href="#">ログアウト</a>
                 </li>
               </ul>
             </li>
@@ -48,4 +46,4 @@
       </div>
     </div>
   </nav>
-</header>
+</header
