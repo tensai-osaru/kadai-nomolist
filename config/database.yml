@@ -51,6 +51,6 @@ production:
   adapter: postgresql
   encoding: unicode
   pool: 5
-  database: monolist_development
-  username: monolist
-  password: <%= ENV['MONOLIST_DATABASE_PASSWORD'] %>
+  database: nomolist_development
+  username: nomolist
+  password: <%= ENV['NOLIST_DATABASE_PASSWORD'] %>
